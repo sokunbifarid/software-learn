@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{%block body %}
+	<h2>NORMAL GREETING</h2>
+	<form action="/greet" method="get">
+		<input autocomplete="off" autofocus name="name" placeholder="Name" type="text">
+		<button type="submit">Greet</button>
+	</form>
+	<h2>ENCRYPTED GREETING</h2>
+	<form action="/greet_encrypted" method="post">
+		<input autocomplete="off" name="name" placeholder="****" type="password">
+		<input type="submit" value="Submit">
+	</form>
+	<h2>COMBINED GREETING</h2>
+	<form action="/" method="post">
+		<input autocomplete="off" name="name" placeholder="Enter combined name" type="text">
+		<input type="submit" value="submit">
+	</form>
+{% endblock %}

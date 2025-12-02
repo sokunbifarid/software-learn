@@ -1,0 +1,45 @@
+html{
+    background-color: black;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+body{
+    /* width: 90%; */
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    font-size: medium;
+}
+
+.calculator-holder{
+    background-color: rgb(56, 56, 56);
+    position: absolute;
+    right: 25%;
+    bottom: 25%;
+}
+
+button{
+    max-width: 20%;
+    background-color: rgb(143, 143, 143);
+    border-radius: 10%;
+    border: 0px;
+    padding: 5%;
+}
+
+.y-power p{
+    font-size: 60%;
+    position: absolute;
+    top: 27%;
+    right: 88%;
+}
+
+.x-power p{
+    font-size: 60%;
+    position: absolute;
+    top: 27%;
+    right: 20%;
+}
+
+.plus-or-minus p{
+    display: inline-block
+}
